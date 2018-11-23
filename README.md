@@ -28,5 +28,5 @@ in master folder there are two files called server.bat , vpn.bat just double cli
 1) open browser and type
 2) type 10.11.12.150 
 3) refresh the browser you will get output from different vpn proxy servers set up at 10.11.12.151,152,153,154,155/24
-4) type quiz in the search box and click search it will take u to internal webpage created i.e master/index.html and other word will redirect to google with the key.
+4) type quiz in the search box and click search it will take u to internal webpage created i.e master/index.html else in any other keyword  will redirect to google with the keyword inputted .
 
