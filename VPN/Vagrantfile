@@ -1,0 +1,23 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+VAGRANTFILE_API_VERSION = "2"
+NUMBER_OF_SERVERS = 5
+Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
+  config.vm.define "VPN_MASTER" do |master|
+    master.vm.box = "ubuntu/trusty64"
+    master.vm.hostname = "VPN-MASTER"
+    master.vm.provision "shell", path: "init.sh" , args: "master"
+    master.vm.network :private_network, ip: "10.11.12.150"
+  end
+
+  (1..NUMBER_OF_SERVERS).each do |i|
+      config.vm.define "vpn0#{i}" do |web|
+      web.vm.hostname = "vpn0#{i}"
+      web.vm.box = "ubuntu/trusty64"
+      web.vm.provision "shell", path: "init.sh", args: "vpn0#{i}"
+
+      web.vm.network :private_network, ip: "10.11.12.15#{i}"
+  end
+end
+end
