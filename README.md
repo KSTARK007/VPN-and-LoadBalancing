@@ -1,7 +1,7 @@
 # VPN-and-LoadBalancing
 This is a Networking project which simulates VPN service 
 
-## prerequisites
+## Prerequisites
 1) vagrant
 2) virtual box
 
@@ -15,10 +15,10 @@ This is a Networking project which simulates VPN service
 7) cd VPN
 8) vagrant init 
 9) cd ..
-### windows
+### Windows
 in master folder there are two files called server.bat , vpn.bat just double click on them(as admin).
 
-### ubuntu or any other linux versions 
+### Ubuntu or any other linux versions 
 //master folder
 1) vagrant up  
 2) cd VPN 
