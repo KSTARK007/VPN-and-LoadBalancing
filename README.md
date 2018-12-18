@@ -1,4 +1,4 @@
-# VPN-and-LoadBalancing
+# VPN and LoadBalancing
 This is a Networking project which simulates VPN service 
 
 ## Prerequisites
