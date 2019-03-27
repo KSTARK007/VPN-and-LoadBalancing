@@ -2,8 +2,8 @@
 This is a Networking project which simulates VPN service 
 
 ## Prerequisites
-1) vagrant [a link](https://www.vagrantup.com/downloads.html)
-2) virtual box [a link](https://www.virtualbox.org/)
+1) [vagrant](https://www.vagrantup.com/downloads.html)
+2) [virtual box](https://www.virtualbox.org/)
 
 ## Steps to follow 
 1) fork the project 
